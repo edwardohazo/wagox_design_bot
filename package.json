@@ -1,0 +1,23 @@
+{
+  "name": "wagox-design-bot",
+  "version": "1.0.0",
+  "description": "IA Bot",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Eduardo Jasso",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "groq-sdk": "^0.13.0",
+    "mongoose": "^8.9.5",
+    "node-fetch": "^3.3.2",
+    "openai": "^4.80.1",
+    "ws": "^8.18.0"
+  }
+}
